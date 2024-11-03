@@ -23,8 +23,8 @@ Requirements:
 
 Installation:
 1. Clone the repository:
-   git clone <repository-url>
-   cd card-distribution
+   git clone https://github.com/Jeena-kj/card-shuffle-api.git
+   cd card-shuffle-api
 
 2. Install dependencies:
    Ensure you have Composer installed, then run:
@@ -36,7 +36,7 @@ Installation:
 
 Usage:
 1. copy .env.localhost file into .env
-2. Open your web browser
+2. Open your postman
    http://127.0.0.1:8000/shuffle/{number_of_players}
 
 3. Enter the desired number of players (between 1 and 52) and click "Distribute Cards".
